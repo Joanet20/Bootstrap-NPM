@@ -11,7 +11,7 @@ const sass = require ('gulp-sass') (require('sass'));
   }
 
   function copy() {
-    return gulp.src('./node_modules/**/bootstrap.bundle.js')
+    return gulp.src('./node_modules/**/*')
       .pipe(gulp.dest('./js'));
   }
 
